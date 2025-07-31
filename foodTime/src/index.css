@@ -1,7 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Merienda:wght@300..900&display=swap');
+
 @import "tailwindcss";
 
 
 
 .primary-bg{
     background-color: "#396C03";
+}
+
+.primary-text{
+    font-family: "Merienda", cursive;
 }

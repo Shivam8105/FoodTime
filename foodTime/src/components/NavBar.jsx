@@ -4,7 +4,7 @@ import "../index.css";
 const NavBar = () => {
   const [open, setOpen] = React.useState(false);
   return (
-    <nav className="flex items-center justify-between px-6 md:px-16 lg:px-24 xl:px-32 py-4 border-b border-gray-300 bg-white relative transition-all">
+    <nav className="flex items-center justify-between px-6 md:px-16 lg:px-24 xl:px-32 py-4 border-b border-gray-300 bg-[#6b914237] relative transition-all z-20">
       <img src="src/assets/FoodTime.png" alt="foodTime" />
       <div className="hidden sm:flex items-center gap-8">
         <a href="#">Home</a>

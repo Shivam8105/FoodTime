@@ -19,7 +19,7 @@ const NavBar = () => {
           />
         </a>
 
-        <button className="cursor-pointer px-8 py-2 hover:bg-indigo-600 transition text-white rounded-full bg-[#396C03]">
+        <button className="cursor-pointer px-8 py-2 hover:bg-[#4A7A0A] transition text-white rounded-full bg-[#396C03]">
           Login
         </button>
         <div className="relative cursor-pointer">

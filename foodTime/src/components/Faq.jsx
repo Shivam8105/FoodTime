@@ -39,7 +39,6 @@ const Faq = () => {
         Frequently asked questions
       </h2>
 
-      {/* Tabs */}
       <div className="flex justify-center gap-4 mb-10">
         <button
           onClick={() => {
@@ -68,8 +67,6 @@ const Faq = () => {
           For business
         </button>
       </div>
-
-      {/* FAQ Grid */}
       <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
         {currentFaqs.length > 0 ? (
           currentFaqs.map((faq, index) => (

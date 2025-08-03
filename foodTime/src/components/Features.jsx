@@ -3,9 +3,7 @@ import React from "react";
 const Features = () => {
   return (
   <div className="px-6 py-16 space-y-16">
-    {/* Top Features Section */}
     <div className="flex flex-col justify-center sm:flex-wrap items-center text-center p-2 mb-35 md:flex-row md:justify-around gap-6 ">
-      {/* Feature 1 */}
       <div className="hover:bg-[#497a0a22] rounded-2xl h-[250px] p-6 w-[350px]">
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640" className="relative bottom-3 sm:ml-10 left-30" width="50" height="50" fill="#4B5320">
           <path d="M127.9 78.4C127.1 70.2 120.2 64 112 64C103.8 64 96.9 70.2 96 78.3L81.9 213.7C80.6 219.7 80 225.8 80 231.9C80 277.8 115.1 315.5 160 319.6L160 544C160 561.7 174.3 576 192 576C209.7 576 224 561.7 224 544L224 319.6C268.9 315.5 304 277.8 304 231.9C304 225.8 303.4 219.7 302.1 213.7L287.9 78.3C287.1 70.2 280.2 64 272 64C263.8 64 256.9 70.2 256.1 78.4L242.5 213.9C241.9 219.6 237.1 224 231.4 224C225.6 224 220.8 219.6 220.2 213.8L207.9 78.6C207.2 70.3 200.3 64 192 64C183.7 64 176.8 70.3 176.1 78.6L163.8 213.8C163.3 219.6 158.4 224 152.6 224C146.8 224 142 219.6 141.5 213.9L127.9 78.4zM512 64C496 64 384 96 384 240L384 352C384 387.3 412.7 416 448 416L480 416L480 544C480 561.7 494.3 576 512 576C529.7 576 544 561.7 544 544L544 96C544 78.3 529.7 64 512 64z" />
@@ -16,7 +14,6 @@ const Features = () => {
         </p>
       </div>
 
-      {/* Feature 2 */}
       <div className="hover:bg-[#497a0a22] rounded-2xl h-[250px] p-6 w-[350px]">
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640" className="relative bottom-3 sm:ml-10 left-30" width="50" height="50" fill="#4B5320"><path d="M144 128C144 92.7 172.7 64 208 64L432 64C467.3 64 496 92.7 496 128L496 512C496 547.3 467.3 576 432 576L208 576C172.7 576 144 547.3 144 512L144 128zM256 504C256 517.3 266.7 528 280 528L360 528C373.3 528 384 517.3 384 504C384 490.7 373.3 480 360 480L280 480C266.7 480 256 490.7 256 504zM432 128L208 128L208 432L432 432L432 128z"/></svg>
         <h3 className="text-2xl font-bold">Easy Ordering Process</h3>

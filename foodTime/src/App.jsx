@@ -7,7 +7,7 @@ import Hero from './components/Hero'
 import Exploration from './components/Exploration'
 import Features from './components/Features'
 import Faq from './components/Faq'
-import FoodAppPromo from './components/FoodappPromo'
+import FoodAppPromo from './components/FoodAppPromo'
 import Footer from './components/Footer'
 
 function App() {

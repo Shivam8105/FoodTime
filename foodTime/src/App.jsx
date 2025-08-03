@@ -8,6 +8,7 @@ import Exploration from './components/Exploration'
 import Features from './components/Features'
 import Faq from './components/Faq'
 import FoodAppPromo from './components/FoodappPromo'
+import Footer from './components/Footer'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -20,6 +21,7 @@ function App() {
     <Features/>
     <Faq />
     <FoodAppPromo/>
+    <Footer/>
     </>
   )
 }

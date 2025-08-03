@@ -7,6 +7,7 @@ import Hero from './components/Hero'
 import Exploration from './components/Exploration'
 import Features from './components/Features'
 import Faq from './components/Faq'
+import FoodAppPromo from './components/FoodappPromo'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -18,6 +19,7 @@ function App() {
     <Exploration/>
     <Features/>
     <Faq />
+    <FoodAppPromo/>
     </>
   )
 }

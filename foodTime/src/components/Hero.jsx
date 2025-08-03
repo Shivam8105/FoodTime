@@ -22,8 +22,8 @@ const Hero = () => {
         <p className="text-gray-600">
           Freshly made food delivered to your door.
         </p>
-        <div class="flex items-center h-14 w-full max-w-md bg-white border border-green-300 rounded-full shadow-sm">
-          <span class="pl-4 pr-2 text-orange-500">
+        <div className="flex items-center h-14 w-full max-w-md bg-white border border-green-300 rounded-full shadow-sm">
+          <span className="pl-4 pr-2 text-orange-500">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="24"
@@ -31,9 +31,9 @@ const Hero = () => {
               viewBox="0 0 24 24"
               fill="none"
               stroke="currentColor"
-              stroke-width="2"
-              stroke-linecap="round"
-              stroke-linejoin="round"
+              strokeWidth="2"
+              strokeLinecap="round"
+              strokeLinejoin="round"
             >
               <circle cx="12" cy="12" r="3"></circle>
               <circle cx="12" cy="12" r="8"></circle>
